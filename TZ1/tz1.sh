@@ -12,7 +12,7 @@ do
 done
 
 #Проходимся по всем файлам из входной директории
-find "$1" -type f 2>/dev/null | grep -v "Permission denied" | while read f;
+find "$1" -type f -o -type l 2>/dev/null | grep -v "Permission denied" | while read f;
 do
 
 	count=1
