@@ -112,11 +112,11 @@ public class AppTest extends TestCase {
         writer.write("1");
         writer.close();
 
-        final TimeComplexityGraph demo = new TimeComplexityGraph("Time Complexity", size, time);
-        demo.pack();
-        RefineryUtilities.centerFrameOnScreen(demo);
-        demo.setVisible(true);
-        Thread.sleep(5 * 60 * 1000);
+//        final TimeComplexityGraph demo = new TimeComplexityGraph("Time Complexity", size, time);
+//        demo.pack();
+//        RefineryUtilities.centerFrameOnScreen(demo);
+//        demo.setVisible(true);
+//        Thread.sleep(5 * 60 * 1000);
     }
 
     public void testSizeDig() throws IOException{
