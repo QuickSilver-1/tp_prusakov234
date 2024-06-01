@@ -7,7 +7,7 @@ import org.jfree.ui.RefineryUtilities;
 
 import java.io.*;
 public class AppTest extends TestCase {
-    
+
     public AppTest(String testName) {
         super(testName);
     }
